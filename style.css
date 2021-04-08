@@ -3,7 +3,6 @@ body{
   font-family: 'Nunito', sans-serif;
   background-image: linear-gradient(to right, #edf2f8 ,#d9dde6, #edf2f8);
  background: url(https://res.cloudinary.com/belum-punya/image/upload/v1617882812/background_j3ovu5.png);
-    background-position: inherit;
     background-size: cover;
 }
 header img{
