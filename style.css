@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,700&display=swap');
+body{
+  font-family: 'Nunito', sans-serif;
+  background-image: linear-gradient(to right, #edf2f8 ,#d9dde6, #edf2f8);
+}
+header img{
+  height:25px;
+}
+a.navbar-brand {
+    padding-top: 0px;
+    margin-top: -5px;
+}
+.nav-link{
+  color:#686765 !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
