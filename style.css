@@ -1,21 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,700&display=swap');
-body{
-  font-family: 'Nunito', sans-serif;
-  background-image: linear-gradient(to right, #edf2f8 ,#d9dde6, #edf2f8);
- background: url(https://res.cloudinary.com/belum-punya/image/upload/v1617882812/background_j3ovu5.png);
-    background-size: cover;
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,700&display=swap");
+body {
+  font-family: "Nunito", sans-serif;
 }
-header img{
-  height:25px;
+
+.home {
+  background-image: linear-gradient(to right, #edf2f8, #d9dde6, #edf2f8);
+  background: url(https://res.cloudinary.com/belum-punya/image/upload/v1617884916/bg_ubr8b8.svg);
+  background-size: cover;
+  height: 100vh;
 }
+
+header img {
+  height: 25px;
+}
+
 a.navbar-brand {
-    padding-top: 0px;
-    margin-top: -5px;
+  padding-top: 0px;
+  margin-top: -5px;
+  font-size: 2rem;
 }
-.nav-link{
-  color:#686765 !important;
+
+.nav-link {
+  color: #686765 !important;
 }
+
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.content .hand {
+  height: 40px;
+}
+.content .img-play {
+  height: 60px;
+}
+
+.skill1 {
+  width: fit-content;
+  background: #fff;
+  padding: 15px 30px;
+  border-radius: 15px;
+  position: absolute;
+  font-weight: bold;
+  top: 45%;
+  left: 20%;
+}
+.skill1 p {
+  margin-bottom: 0;
+}
+
+.hello {
+  width: fit-content;
+  background: #fff;
+  padding: 15px 40px;
+  border-radius: 15px;
+  position: absolute;
+  top: 28%;
+  left: 15%;
+}
+
+.play {
+  width: fit-content;
+  padding: 15px;
+  position: absolute;
+  top: 15%;
+  right: 20%;
+  text-align: center;
+  font-size: 14px;
+}
+.play .circle {
+  background: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  width: 95px;
+  height: 95px;
+  margin-bottom: 10px;
+}
+
+.responsive {
+  width: fit-content;
+  padding: 15px;
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  text-align: center;
+  font-size: 14px;
+}
+.responsive .circle {
+  background: #fff;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  margin-bottom: 10px;
+}
+.responsive img {
+  width: 100%;
+  height: 100%;
+}
+
+em {
+  color: #a6a6a6;
 }
